@@ -1,0 +1,84 @@
+.about {
+    background: linear-gradient(135deg, #ffe6e6, #ffd1d1); /* Light red gradient */
+  color: #333; /* Darker text for readability */
+    padding: 60px 30px;
+    border-radius: 15px; /* Rounded edges for a softer look */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.2rem;
+    color: #ff3f81; /* Highlighted heading in vibrant pink */
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Add emphasis with uppercase letters */
+    letter-spacing: 1.5px; /* Improved spacing for elegance */
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555; /* Softer text color for readability */
+    margin-bottom: 30px;
+  }
+  
+  .about .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .about .card {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+    flex: 1 1 calc(33.333% - 40px); /* Responsive 3-column layout */
+    max-width: 300px; /* Limit card width */
+    text-align: left; /* Align card content to the left */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .about .card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .about .card h3 {
+    font-size: 1.4rem;
+    color: #ff3f81; /* Card titles in vibrant pink */
+    margin-bottom: 10px;
+  }
+  
+  .about .card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666; /* Softer text for descriptions */
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      padding: 40px 20px;
+    }
+  
+    .about h2 {
+      font-size: 1.8rem;
+    }
+  
+    .about p {
+      font-size: 1rem;
+    }
+  
+    .about .cards {
+      flex-direction: column; /* Stack cards vertically on small screens */
+      align-items: center;
+    }
+  
+    .about .card {
+      flex: 1 1 100%; /* Full width for cards on mobile */
+      max-width: 100%;
+    }
+  }
+  

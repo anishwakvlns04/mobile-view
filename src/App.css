@@ -1,0 +1,35 @@
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .about .cards,
+  .challenges .cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .challenges .card {
+    margin: 0 auto;
+  }
+
+  .timeline .step {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .footer {
+    padding: 15px 10px;
+  }
+}

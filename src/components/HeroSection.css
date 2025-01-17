@@ -1,0 +1,59 @@
+.hero {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c, #fc4a1a); /* Enhanced gradient */
+    color: #fff; /* White text for better contrast */
+    text-align: center;
+    padding: 60px 30px; /* Increased padding for better spacing */
+    border-radius: 15px; /* Rounded corners for a softer look */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem; /* Larger font size */
+    font-weight: bold; 
+    text-align: center;/* Make it more prominent */
+    letter-spacing: 1.5px; /* Add spacing between letters */
+    text-shadow: 2px 2px 5px rgba(31, 12, 67, 0.5); /* Add text shadow for emphasis */
+  }
+  
+  .hero p {
+    font-size: 1.2rem; /* Slightly larger text */
+    margin: 15px 0;
+    color: #ffe5e5; /* Light pinkish color for secondary text */
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  .hero .btn-primary {
+    margin-top: 20px;
+    background-color: #ff3f81; /* Vibrant pink for the button */
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px; /* Make the button pill-shaped */
+    box-shadow: 0px 4px 10px rgba(255, 63, 129, 0.5); /* Add shadow for the button */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    cursor: pointer;
+  }
+  
+  .hero .btn-primary:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0px 6px 15px rgba(255, 63, 129, 0.7); /* Enhanced shadow on hover */
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem; /* Slightly smaller for mobile */
+    }
+  
+    .hero p {
+      font-size: 1rem; /* Adjusted for readability */
+    }
+  
+    .hero {
+      padding: 40px 20px; /* Adjust padding for smaller screens */
+    }
+  }
+
+  
